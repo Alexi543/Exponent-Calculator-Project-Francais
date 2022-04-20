@@ -6,6 +6,6 @@ export const data = {
         "Il est facile a utiliser et tres utile",
         "J'adore ce produit il marche tres bien",
         "Un peux cher a 30$ mais est tres utile",
-        "C'est de la merde de application"
+        "C'est de la merde"
     ]
 };

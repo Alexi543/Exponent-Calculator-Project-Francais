@@ -1,1 +1,31 @@
-@import url(/Style/base.css)
+@import url(/Style/base.css);
+
+* {
+    overflow: hidden;
+}
+
+.menu {
+    background-color: rgb(198, 198, 225);
+    width: 600px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(151, 151, 184);
+}
+
+#buy {
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+#redirect {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#prog {
+    height: 30px;
+    width: 200px;
+}

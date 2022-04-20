@@ -114,15 +114,20 @@ i {
     height: 270px;
     overflow-y: auto;
     overflow-x: hidden;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    border-color: white;
 }
 
 .comment {
-    background-color: rgb(149, 149, 222);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: rgb(62, 62, 96);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-inline: 25px;
     border-radius: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     overflow-wrap: break-word;
 }
 

@@ -1,5 +1,3 @@
-
-
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -10,4 +8,11 @@ body {
 
 .one-line {
     display: inline;
+}
+
+.window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
 }

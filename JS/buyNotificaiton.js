@@ -9,8 +9,10 @@ const REDIRECT_LABEL = document.getElementById("redirect");
 
     setInterval(() => {
         REDIRECT_LABEL.textContent = `Chargement du produit${data.loadProgress[load]}`;
-
+        
         (load < data.loadProgress.length - 1) ? load++: load = 0;
+
+        console.log("test");
 
         loop--;
         if (loop === 0) document.location.href = "../Pages/app.html";
