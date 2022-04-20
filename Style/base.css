@@ -1,0 +1,11 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(221, 222, 227);
+}
+
+.one-line {
+    display: inline;
+}

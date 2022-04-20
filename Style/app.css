@@ -1,0 +1,74 @@
+@import url(/Style/base.css);
+
+body {
+    text-align: center;
+}
+
+.txt {
+    background-color: rgb(99, 99, 155);
+    border-style: solid;
+    border-color: rgb(26, 26, 35);
+    border-radius:8px;
+    border-width: 2px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    width: 80px;
+    color: white;
+    padding: 3px;
+}
+
+.window {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+}
+
+.app {
+    background-color: rgb(57, 52, 79);
+    color: white;
+    padding: 15px;
+    width: 400px;
+    height: 270px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(20, 20, 67);
+    border-width: 5px;
+}
+
+.output-box {
+    float: right;
+    background-color: rgb(67, 67, 102);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-box {
+    float: left;
+    padding-top: 20px;
+}
+
+#title {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+#start {
+    margin-top: 130px;
+    position: relative;
+    left: -30px;
+    background-color: rgb(57, 57, 99);
+    border-color: rgb(20, 20, 40);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
