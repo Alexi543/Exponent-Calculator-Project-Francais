@@ -1,4 +1,6 @@
 export const data = {
-    loadProgress: ["", ".", "..", "..."]
+    loadProgress: ["", ".", "..", "..."],
+    comments: [
+        "example de commentaire"
+    ]
 };
-

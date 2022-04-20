@@ -8,38 +8,50 @@
     <link rel="stylesheet" href="/Style/buy.css">
 </head>
 <body>
-    <header class="title">
-        <h1>Calculateur D'exposant</h1>
-        <h3>Vendu par Alexi Lord</h3>
+    <header class="info">
+        <h1 class="title"><strong>Calculateur D'exposant</strong></h1>
+        <h3 class="seler">Vendu par Alexi L.</h3>
     </header>
     
     <section class="description">
-        <h2>Description du produit</h2>
-        <p>
-            Outis facile d'utilisation qui <br>
-            peux servir a tout le monde. <br>
-            Prix imbatable (il y a pas de concurence). <br>
-            C'est le meilleur en vente <br>
-            (meme si c'est le seul).
-        </p>
+        <h2 id="descriptionTitle">Description du produit</h2>
+        <div class="description-info">
+            <p id="product-des">
+                Outis <strong>facile</strong> d'utilisation qui peux <br>
+                servir a tout le monde <i>(ou presque)</i>. <br>
+                Prix <strong>imbatable</strong> <i>(parceq'il y a pas de concurence)</i>. <br>
+                C'est le <strong>meilleur</strong> en vente <i>(en plus c'est le seul)</i>.
+            </p>
+
+            <br>
+
+            <div class="price-box">
+                <p class="price"><strong>29.99$</strong></p>
+                <p class="free-send">Livraison gratuite avant <br> le 1er mai 2015</p>
+                
+                <br>
+                
+                <a href="/Pages/loading.html" class="buy">Acheter</a>
+            </div>
+        </div>
     </section>
     
     <section class="preView">
-        <img src="/Images/Product.png" height="300px">
+        <h1 id="preViewTitle">Aperçu du produit</h1>
+        <img src="/Images/Product.png" height="500px">
     </section>
-
-    <section class="price">
-        <p class="price">29.99$</p>
-        <a href="/Pages/loading.html">Acheter</a>
-    </section>
-
 
     <section class="comments">
-        <div class="comments-box">
-            ...
+        <h1 id="comments-title">Commentaires des consomateures</h1>
+
+        <div class="user-comments">
+            <div class="comments-list">
+
+            </div>
+
+            <input type="text" placeholder="Ajouter un commentaire" id="add-comment">
         </div>
 
-        <input type="text" placeholder="Ajouter un commentaire">
     </section>
 
     <script type="module" src="/JS/buy.js"></script>

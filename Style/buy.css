@@ -1,1 +1,152 @@
 @import url(/Style/base.css);
+
+input::placeholder {
+    color: black;
+    text-align: center;
+}
+
+i {
+    font-size: 17px;
+}
+
+.info {
+    background-color: rgb(11, 11, 32);
+    color: white;
+    padding: 3px;
+    text-align: end;
+    width: 650px;
+    margin-left: auto;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-bottom: 200px;
+    padding-bottom: 15px;
+}
+
+.title {
+    font-size: 45px;
+    margin-right: 25px;
+    margin-bottom: -10px;
+}
+
+.seler {
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.description {
+    float: right;
+    text-align: end;
+    margin-right: 80px;
+}
+
+.description-info {
+    background-color: rgb(184, 191, 212);
+    padding: 20px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: rgb(155, 152, 188);
+    border-width: 3px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.price-box {
+    margin-left: auto;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    width: 200px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.free-send {
+    color: rgb(100, 93, 152);
+    font-size: 17px;
+}
+
+.buy {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(143, 143, 209);
+    padding: 6px;
+    margin: 5px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: rgb(101, 101, 143);
+    border-radius: 10px;
+}
+
+.preView {
+    float: left;
+}
+
+.comments {
+    margin-top: 1000px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.user-comments {
+    height: 400px;
+    width: 700px;
+    background-color: rgb(114, 105, 173);
+    margin-inline: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: rgb(82, 82, 122);
+    border-width: 3px;
+}
+
+.comments-list {
+    padding: 20px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.comment {
+    background-color: rgb(149, 149, 222);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 25px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    overflow-wrap: break-word;
+}
+
+#preViewTitle {
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+#descriptionTitle {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+#product-des {
+    font-size: 20px;
+}
+
+#comments-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#add-comment {
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 10px;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    background-color: rgb(94, 94, 132);
+}
