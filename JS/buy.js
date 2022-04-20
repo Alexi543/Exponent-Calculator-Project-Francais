@@ -4,11 +4,13 @@ const COMMENTS_LIST = document.querySelector(".comments-list");
 const ADD_COMMENT = document.getElementById("add-comment");
 
 const addComment = (comment) => {
-    COMMENTS_LIST.innerHTML += (
-        `<div class="comment">
-            ${comment}
-        </div>`
-    );
+    if (comment !== "") {
+        COMMENTS_LIST.innerHTML += (
+            `<div class="comment">
+                ${comment}
+            </div>`
+        );
+    }
 }
 
 (function () {
@@ -20,4 +22,3 @@ const addComment = (comment) => {
 ADD_COMMENT.addEventListener("change", ()=> {
     addComment(ADD_COMMENT.value);
 });
- 

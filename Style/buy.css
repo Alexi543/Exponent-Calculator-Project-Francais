@@ -1,5 +1,9 @@
 @import url(/Style/base.css);
 
+.comments-list::-webkit-scrollbar {
+    visibility: hidden;
+}
+
 input::placeholder {
     color: black;
     text-align: center;
@@ -105,8 +109,9 @@ i {
 }
 
 .comments-list {
-    padding: 20px;
-    height: 300px;
+    padding: 40px;
+    padding-top: 30px;
+    height: 270px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -149,4 +154,9 @@ i {
     border-color: white;
     border-width: 2px;
     background-color: rgb(94, 94, 132);
+    text-align: center;
+}
+
+#image {
+    margin-left: 20px;
 }
