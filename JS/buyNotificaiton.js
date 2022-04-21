@@ -1,7 +1,7 @@
 import { random } from "../JavaScript-Tools/random.js";
 import { data } from "./data.js";
 
-const REDIRECT_LABEL = document.getElementById("redirect");
+const REDIRECT_LABEL = document.querySelector("#redirect");
 
 (function () {
     let loop = random.randrange(5, 10);

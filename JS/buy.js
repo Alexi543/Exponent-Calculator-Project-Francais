@@ -1,7 +1,7 @@
 import { data } from "./data.js";
 
 const COMMENTS_LIST = document.querySelector(".comments-list");
-const ADD_COMMENT = document.getElementById("add-comment");
+const ADD_COMMENT = document.querySelector("#add-comment");
 
 const addComment = (comment) => {
     if (comment !== "") {

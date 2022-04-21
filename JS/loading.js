@@ -1,8 +1,8 @@
 import { random } from "../JavaScript-Tools/random.js"
 import { data } from "./data.js";
 
-const BUY_LABEL = document.getElementById("buy");
-const PAGE_TITLE = document.getElementById("page-title");
+const BUY_LABEL = document.querySelector("#buy");
+const PAGE_TITLE = document.querySelector("#page-title");
 
 (function () {
     let loop = random.randrange(5, 10);
