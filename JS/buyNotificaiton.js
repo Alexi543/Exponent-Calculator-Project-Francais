@@ -10,7 +10,7 @@ const REDIRECT_LABEL = document.querySelector("#redirect");
     setInterval(() => {
         REDIRECT_LABEL.textContent = `Chargement du produit${data.loadProgress[load]}`;
         
-        (load < data.loadProgress.length - 1) ? load++: load = 0;
+        (load < data.loadProgress.length - 1) ? load++ : load = 0;
 
         console.log("test");
 

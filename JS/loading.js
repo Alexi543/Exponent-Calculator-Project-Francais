@@ -14,7 +14,7 @@ const PAGE_TITLE = document.querySelector("#page-title");
         BUY_LABEL.textContent = `Achat en cours${progress}`;
         PAGE_TITLE.textContent = `Achat${progress}`;
 
-        (load < data.loadProgress.length - 1) ? load++: load = 0;
+        (load < data.loadProgress.length - 1) ? load++ : load = 0;
 
         loop--;
         if (loop === 0) document.location.href = "../Pages/buyNotificaiton.html";
